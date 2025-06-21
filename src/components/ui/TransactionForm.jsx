@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 
 const TransactionForm = ({ addTransaction }) => {
-    const [amount, setAmount] = useState(0);
+    const [amount, setAmount] = useState("");
     const [description, setDescription] = useState("");
     const [type, setType] = useState("income"); // Default to income
     const [category, setCategory] = useState("General"); // Default to General
